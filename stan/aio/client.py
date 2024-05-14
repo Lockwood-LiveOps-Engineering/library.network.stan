@@ -22,7 +22,7 @@ from nats.aio.client import Client as NATS
 from nats.errors import ConnectionClosedError
 from stan.aio.errors import *
 
-__version__ = '0.4.1'
+__version__ = '0.5.0'
 
 # Subject namespaces for clients to ack and connect
 DEFAULT_ACKS_SUBJECT = "_STAN.acks.%s"
